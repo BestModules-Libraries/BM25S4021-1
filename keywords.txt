@@ -1,30 +1,28 @@
 #######################################
-# Syntax Coloring Map For BM25S4021_1
+# Syntax Coloring Map For BM25S4021-1
 #######################################
-
 #######################################
 # Class (KEYWORD1)
 #######################################
-
 BM25S4021_1	KEYWORD1
-
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
-
-# methods names in command
+getINT	KEYWORD2
 begin	KEYWORD2					
 readTDS	KEYWORD2			
 readTemp	KEYWORD2
-setWarn	KEYWORD2							
+getAlarmValue	KEYWORD2
+getWorkMode
+reset	KEYWORD2							
 setID	KEYWORD2								
-sleep	KEYWORD2
-reset	KEYWORD2					
+setAlarmValue	KEYWORD2
+setWorkMode	KEYWORD2				
 #######################################
 # Constants (LITERAL1)
 #######################################
-CHECK_FAIL	LITERAL1
 CHECK_OK	LITERAL1
+CHECK_FAIL	LITERAL1
 NO_MODULE	LITERAL1
 NO_TDS_MODULE	LITERAL1
 TIMEOUT	LITERAL1
@@ -33,12 +31,16 @@ COMMAND_ERROR	LITERAL1
 CHANEL_ERROR	LITERAL1
 ID_ERROR	LITERAL1
 
-HEAD1	LITERAL1
+SLEEP_MODE  LITERAL1
+CH1_MODE  LITERAL1
+CH2_MODE  LITERAL1
+TWO_CH_MODE LITERAL1
+
+HEAD1 LITERAL1
 HEAD2	LITERAL1
 CLASS	LITERAL1
 DEFAULTID	LITERAL1
          
-  
 CMD_GETCON	LITERAL1
 GETCON_TX_LENGTH	LITERAL1
 GETCON_RX_LENGTH	LITERAL1
