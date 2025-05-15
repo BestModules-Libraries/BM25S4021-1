@@ -1,5 +1,5 @@
 <div align=center>
-<img src="https://github.com/BestModules-Libraries/img/blob/main/BM25S4021-1_BME63M402A_V1.0.png" width="480" height="240">
+<img src="https://github.com/BestModules-Libraries/img/blob/main/BM25S4021-1_BME63M402_BME63M402A_V1.0.png" width="562" height="480">
 </div>
 
 BM25S4021-1
@@ -13,6 +13,7 @@ The BM25S4021-1 is a TDS water quality detection module from BestModules, which 
 |Part No.   |Description                             |
 |:---------:|:--------------------------------------:|
 |BM25S4021-1 |TDS water quality detection module|
+|BME63M402 |adapter line and BM25S4021-1|
 |BME63M402A |adapter line and BM25S4021-1|
 
 </div>
