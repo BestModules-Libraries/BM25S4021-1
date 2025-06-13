@@ -1,60 +1,59 @@
 <div align=center>
-<img src="https://github.com/BestModules-Libraries/img/blob/main/BMD11M134_V1.0.png" width="320" height="240"> 
-</div> 
+<img src="https://github.com/BestModules-Libraries/img/blob/main/BM25S4021-1_BME63M402_BME63M402A_V1.0.png" width="562" height="480">
 
-BMD11M134
+</div>
+
+BM25S4021-1
 ===========================================================
 
-The Best Modules BMD11M134 is a 4-digit digital tube module, which uses the I2C communication method. This document provides the description of the BMD11M134 Arduino Lib function and how to install the Arduino Lib. The example demonstrates the function of displaying characters by using digital tubes.
+The BM25S4021-1 is a TDS water quality detection module from BestModules, which uses the UART communication method. This document provides the description of the BM25S4021-1 Arduino Lib functions and how to install the Arduino Lib. The example uses the BM25S4021-1 module to demonstrate functions such as reading TDS values and setting module ID.
 
 #### Applicable types:
 <div align=center>
 
-|Paet No.   |Description                              |
-|:---------:|:---------------------------------------:|
-|BMD11M134 |4-Digit Digital Tube Module|
-|BMD11M134A|4-Digit Digital Tube Module|
+|Part No.   |Description                             |
+|:---------:|:--------------------------------------:|
+|BM25S4021-1 |TDS water quality detection module|
+|BME63M402   |adapter line and BM25S4021-1|
+|BME63M402A  |adapter line and BM25S4021-1|
 
-</div> 
+</div>
 
-
-This library can be installed via the Arduino Library manager. Search for **BMD11M134**. 
+This library can be installed via the Arduino Library manager. Search for **BM25S4021-1**.
 
 Repository Contents
 -------------------
 
-* **/examples** - Example sketches for the library (.ino). Run these from the Arduino IDE. 
+* **/examples** - Example sketches for the library (.ino). Run these from the Arduino IDE.
 * **/src** - Source files for the library (.cpp, .h).
-* **keywords.txt** - Keywords from this library that will be highlighted in the Arduino IDE. 
-* **library.properties** - General library properties for the Arduino package manager. 
+* **keywords.txt** - Keywords from this library that will be highlighted in the Arduino IDE.
+* **library.properties** - General library properties for the Arduino package manager.
 
-Documentation 
+Documentation
 -------------------
 
-* **[BMD11M134 Arduino Library Description](https://www.bestmodulescorp.com/bmd11m134.html#tab-product2)** - Arduino Library Description.
+* **[BM25S4021-1 Arduino Library Description](https://www.bestmodulescorp.com/bm25s4021-1.html#tab-product2)** - Arduino Library Description.
 
-Version History  
+Version History
 -------------------
 
 * **V1.0.1**  
-&emsp;&emsp;- Initial public release.
+&emsp;&emsp;- Initial public release.  
 * **V1.0.2**  
-&emsp;&emsp;- Improve function functions: begin, shiftRight, shiftLeft;  
-&emsp;&emsp;- Improve the example content and update the schematic image: shift;  
-&emsp;&emsp;- Perfect some function header comments.  
-* **V1.0.3**  
-&emsp;&emsp;- Add applicable models: BMD11M134A; 
-
+&emsp;&emsp;- Change the function name setWarmValue(ID,channel) to setAlarmValue(ID,channel).  
+&emsp;&emsp;- Improve example:setAlarmValue.  
+&emsp;&emsp;- Change the function name readTemp(ID,channel) to readTemperature(ID,channel).  
+&emsp;&emsp;- Add function:selectModule(ID),readTDS(channel),readTemperature(channel).  
 
 License Information
 -------------------
 
-This product is _**open source**_! 
+This product is _**open source**_!
 
-Please review the LICENSE.md file for license information. 
+Please review the LICENSE.md file for license information.
 
-If you have any questions or concerns on licensing, please contact technical support on our BEST MODULES CORP. Email:service@bestmodulescorp.com
+If you have any questions or concerns on licensing, please contact technical support on our BEST MODULES CORP. Email:service@bestmodulescorp.com.
 
 Distributed as-is; no warranty is given.
 
-BEST MODULES CORP.
+BEST MODULES CORP. 
