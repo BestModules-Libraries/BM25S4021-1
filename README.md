@@ -46,6 +46,7 @@ Version History
 &emsp;&emsp;- Add function:selectModule(ID),readTDS(channel),readTemperature(channel).  
 * **V1.0.3**  
 &emsp;&emsp;- Change the BMduino module model name from BME63M402/BME63M402A to BME63K402/BME63K402A. 
+
 License Information
 -------------------
 
