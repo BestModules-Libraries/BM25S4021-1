@@ -45,7 +45,7 @@ Version History
 &emsp;&emsp;- Change the function name readTemp(ID,channel) to readTemperature(ID,channel).  
 &emsp;&emsp;- Add function:selectModule(ID),readTDS(channel),readTemperature(channel).  
 * **V1.0.3**  
-&emsp;&emsp;- Change the BMduino module model name from BME63M402/BME63M402A to BME63K402/BME63K402A. 
+&emsp;&emsp;- Change the BMduino module model name from BME63M402/BME63M402A to BME63K402/BME63K402A.  
 
 License Information
 -------------------
