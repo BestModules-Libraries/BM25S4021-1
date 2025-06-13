@@ -5,7 +5,7 @@ Description:	Define classes and required variables if this class
 							has parameters,input parameters when this class defined
 							the class(this function) can call its mumbers in current
 							function,or by called outside else
-History:			V1.0.2   -- 2025-06-12
+History:			V1.0.3   -- 2025-06-13
 ******************************************************************/
 #include "BM25S4021-1.h"
 
