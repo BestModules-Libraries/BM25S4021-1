@@ -1,5 +1,5 @@
 /*****************************************************************
-File:         sleep
+File:         setWorkMode.ino
 Description:  Put the module into sleep,Please ensure
               that the baud rate of the Serial Monitor is 9600.
 ******************************************************************/

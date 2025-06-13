@@ -1,5 +1,6 @@
 <div align=center>
 <img src="https://github.com/BestModules-Libraries/img/blob/main/BM25S4021-1_BME63M402_BME63M402A_V1.0.png" width="562" height="480">
+
 </div>
 
 BM25S4021-1
@@ -13,8 +14,8 @@ The BM25S4021-1 is a TDS water quality detection module from BestModules, which 
 |Part No.   |Description                             |
 |:---------:|:--------------------------------------:|
 |BM25S4021-1 |TDS water quality detection module|
-|BME63M402 |adapter line and BM25S4021-1|
-|BME63M402A |adapter line and BM25S4021-1|
+|BME63M402   |adapter line and BM25S4021-1|
+|BME63M402A  |adapter line and BM25S4021-1|
 
 </div>
 
@@ -37,7 +38,12 @@ Version History
 -------------------
 
 * **V1.0.1**  
-&emsp;&emsp;- Initial public release.
+&emsp;&emsp;- Initial public release.  
+* **V1.0.2**  
+&emsp;&emsp;- Change the function name setWarmValue(ID,channel) to setAlarmValue(ID,channel). 
+&emsp;&emsp;- Improve example:setAlarmValue. 
+&emsp;&emsp;- Change the function name readTemp(ID,channel) to readTemperature(ID,channel). 
+&emsp;&emsp;- Add function:selectModule(ID),readTDS(channel),readTemperature(channel). 
 
 License Information
 -------------------

@@ -2,7 +2,7 @@
 File:					BM25S4021-1.h
 Author:				BEST MODULES CORP.
 Description:	Define classes and required variables
-History:			V1.0.1   -- 2025-05-09
+History:			V1.0.2   -- 2025-06-12
 ******************************************************************/
 #ifndef BM25S4021_1_h_
 #define BM25S4021_1_h_
@@ -16,22 +16,26 @@ public:
 	BM25S4021_1(uint8_t intPin, uint8_t rxPin, uint8_t txPin);
 	void begin();
 	uint8_t getINT();
+	void selectModule(uint8_t ID);
+	float readTDS(uint8_t channel); // Compatible with BME63M001
+	float readTemperature(uint8_t channel); // Compatible with BME63M001
 	float readTDS(uint8_t ID, uint8_t channel);
-	float readTemp(uint8_t ID, uint8_t channel);
+	float readTemperature(uint8_t ID, uint8_t channel);
 	float getAlarmValue(uint8_t ID, uint8_t channel);
 	uint8_t getWorkMode(uint8_t ID);
 	uint8_t reset(uint8_t ID);
 	uint8_t setID(uint8_t oldID, uint8_t newID);
-	uint8_t setAlarmValue(uint8_t ID, uint8_t channel, float warnValue);
+	uint8_t setAlarmValue(uint8_t ID, uint8_t channel, float alarmValue);
 	uint8_t setWorkMode(uint8_t ID, uint8_t mode);
 
 private:
-	uint8_t readData(uint8_t ID, uint8_t channel, float *getTDSValue, float *getTempValue);
+	uint8_t readTDSAndTEMP(uint8_t ID, uint8_t channel, float *getTDSValue, float *getTempValue);
+	void writeBytes(uint8_t wbuf[], uint8_t wlen);
 	uint8_t getData(uint8_t *buff, uint8_t cmmand, uint8_t ID, uint8_t rxLength);
-	uint8_t checksum;
 	uint8_t _intPin;
 	uint8_t _rxPin;
 	uint8_t _txPin;
+	uint8_t _selectModule = 1;
 	HardwareSerial *_hardSerial;
 	SoftwareSerial *_softSerial;
 };
