@@ -36,7 +36,7 @@ void loop()
   Serial.print("(");
   Serial.print(TDSValue * 2, 1);
   Serial.println(" uS/cm)");
-  TempValue = myTDS.readTemperature(ID, channel);
+  TempValue = myTDS.readTemp(ID, channel);
   if (TempValue == 6548.6)
   {
     Serial.print("NTC interface is open circuit");

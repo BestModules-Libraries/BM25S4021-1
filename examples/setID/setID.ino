@@ -1,6 +1,6 @@
 /*****************************************************************
 File:         setID
-Description:  Set module ID,Please ensure that the baud rate
+Description:  Reset the modular,Please ensure that the baud rate
               of the Serial Monitor is 9600.
 ******************************************************************/
 #include "BM25S4021-1.h"
