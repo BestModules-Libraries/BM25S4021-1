@@ -32,7 +32,7 @@ Repository Contents
 Documentation
 -------------------
 
-* **[BM25S4021-1 Arduino Library Description](https://www.bestmodulescorp.com/bm25s4021-1.html#tab-product2)** - Arduino Library Description.
+* **[BM25S4021-1 Arduino Library Description](https://www.bestmodulescorp.com/bm25s4021-1.html)** - Arduino Library Description.
 
 Version History
 -------------------
@@ -46,7 +46,9 @@ Version History
 &emsp;&emsp;- Add function:selectModule(ID),readTDS(channel),readTemperature(channel).  
 * **V1.0.3**  
 &emsp;&emsp;- Change the BMduino module model name from BME63M402/BME63M402A to BME63K402/BME63K402A.  
-
+* **V1.0.4**  
+&emsp;&emsp;- Remove excess files from the src file. 
+ 
 License Information
 -------------------
 
